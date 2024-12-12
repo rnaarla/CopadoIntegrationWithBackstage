@@ -75,13 +75,14 @@ public class ApiConfig {
 ### Request Format
 ```json
 {
-    "messages": [
-        {
-            "role": "user",
-            "content": "message"
-        }
-    ],
-    "stream": true
+  "messages": [
+    {
+      "role": "user",
+      "content": "What's is the weather in Chennai, India?"
+    }
+  ],
+  "model": "gpt-3.5-turbo",
+  "stream": true
 }
 ```
 
